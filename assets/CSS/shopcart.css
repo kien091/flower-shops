@@ -1,0 +1,19 @@
+.display-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.head-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.col-12{
+    overflow: hidden;
+}
+.logo{
+    max-width: 50%;
+    max-width: 50%;
+}

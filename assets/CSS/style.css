@@ -1,0 +1,632 @@
+* {
+    /*emmet*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 5000px;
+}
+
+.smtop{
+    scroll-margin-top: 147.5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: white !important;
+    /* tạo class text-white để làm trắng chữ khi cần ưu tiên nhất */
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
+
+/*.btn{
+    color: #fff;
+    background-color: black;
+    padding: 10px 17px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    border: none;
+}*/
+
+.btn-normal:hover {
+    cursor: pointer;
+    color: #333;
+    background-color: #ccc;
+}
+
+/*.pull-right{
+    float: right ;
+}*/
+
+/*.row{
+    margin-left: -8px;!important
+    margin-right: -8px;!important
+}*/
+
+/*.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}*/
+
+.col-thirds {
+    width: 20%;
+}
+
+.col-thirds1 {
+    width: 33.333333%;
+}
+
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+#header {
+    position: fixed;
+    /*set top de dam bao moi trinh duyet deu bang 0*/
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 119px;
+    /*de giu header ko bi anh che mat */
+    z-index: 1;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+.col-thrids {
+    width: 20%;
+}
+
+.btn-normal {
+    color: #fff;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    background-color: #405cf5;
+    padding: 0px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: box-shadow .15s, transform .15s;
+    border: none;
+}
+
+.btn-normal:hover {
+    cursor: pointer;
+    color: #333;
+    opacity: 0.6;
+    ;
+}
+
+#header .img-logo {
+    width: 100px;
+    height: 100px;
+}
+
+#header .snize-input-style {
+    width: 100%;
+    padding: 0px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /*    background: transparent;*/
+    border: 1px solid lightgray;
+}
+
+#header .snize-input-style:focus {
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #ff3e00 !important;
+    transition: 0.1s;
+}
+
+#nav>li {
+    display: inline-block;
+    text-decoration: none;
+    /*	color: black;*/
+}
+
+.navbar-nav>li>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    border: 2px solid #fff;
+}
+
+.navbar-nav li:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+#nav li a {
+    line-height: 30px;
+    padding: 0 4px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#header .account-navbar-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .menu-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+#header .main-nav-container .header-with-search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header .text-decor>li>a,
+.account-navbar-link {
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+#header .text-decor>li {
+    padding: 0px 10px;
+    border-right: 2px solid #fff;
+}
+
+#header .text-decor>li:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.decor {
+    border: 2px white solid;
+    margin: 1px;
+}
+
+.dropdown-menu {
+    background-color: #CED0BB;
+    border: 2px solid white;
+}
+
+.decor:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+#header .header-with-search {
+    height: 89px;
+    background-color: #c8a0c3;
+}
+
+#header .header-with-search__Logo {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#header .header-with-search__Search {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+
+#header .snize-input-style,
+.btn-ssize{
+    height: 45px;
+}
+
+#header .account-nav {
+    display: inline-block;
+    display: flex;
+    margin: 8px 0px;
+    padding-left: 10px;
+}
+
+#header .shadow {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#header .account-nav>i {
+    font-size: 25px;
+}
+
+.cart {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.cart:hover {
+    transform: scale(1.1);
+}
+
+.carousel-inner {
+    margin-top: 147.5px;
+}
+
+img.size-img-bg {
+    width: 100%;
+    height: 90%;
+}
+
+.carousel-item {
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-indicators,
+.carousel-control-next {
+    color: black;
+    font-size: 10rem;
+    width: auto;
+    height: auto;
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-indicators,
+.carousel-control-next-icon {
+    filter: invert(100%);
+    font-size: 200px;
+
+}
+
+#slider .Quick-search {
+    display: flex;
+    background-color: #b2db0e;
+    padding: 17px 0px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#slider .Quick-search__Logo {
+    padding-left: 30px;
+}
+
+#slider .Quick-search .select>select {
+    height: 43px;
+    border-radius: 5px;
+    padding-right: 150px;
+    box-sizing: border-box;
+
+}
+
+#slider .Quick-search .btn-quick {
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 30px;
+    width: 10%;
+    
+}
+
+#content {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#content .img-about {
+    background: url(../images/Content/contentbg/bg-1.png) no-repeat;
+    background-size: cover;
+    height: 30em;
+    background-position: 30%;
+    box-sizing: border-box;
+    z-index: 100000;
+    overflow: hidden; /* hide any overflowing image content */
+}
+
+
+
+#content .container {
+    width: 100%;
+}
+
+#content .container-word {
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    word-wrap: break-word;
+}
+
+#content .img-intro {
+    width: 100%;
+    height: 350px;
+}
+
+#content .about-section {
+    position: relative;
+    left: 26%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: 50%;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    /* do dày cua chu */
+    text-align: center;
+    /* căm giữa chữ The Band */
+    letter-spacing: 4px;
+    color: #97eb25;
+    /* khoang cach giua cac chu */
+}
+
+#content .section-sub-heading {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.6;
+    /* lam mo chu */
+    font-style: italic;
+    /* in nghieng */
+}
+
+#content .section-about {
+    font-weight: 600;
+}
+#content .purchase-progress {
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: -4px;
+}
+
+#content .benefit {
+    display: flex;
+    padding: 20px;
+    background-color: #0cdd0c;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+#content .benefit:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+#content .icon-be {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+#product h3.heading-items {
+    background-color: green;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: radial-gradient(100% 100% at 100% 0, #15ff15 0, #328b82 100%);
+}
+
+#product .heading-product {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 2px solid orange;
+}
+
+#product .pic-product {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 4px;
+    /* bo tron hinh anh */
+}
+
+#product .members-list {
+    margin-top: 32px;
+}
+
+#product .item-product:hover {
+    border: 1px solid #ee4d2d;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#product .product-name {
+    font-size: 15px;
+}
+
+#product .price-item {
+    margin: 16px 0px 0px;
+}
+
+#product .s-full-width {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#subrice {
+    margin-top: 50px;
+    background-image: url("../images/Content/project/bgproject.png");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    /*    flex-direction: column-reverse;*/
+}
+
+.text-project,
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-project {
+    color: #9fc612;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.staft-img {
+    width: 100%;
+    height: 100%;
+}
+
+.staft {
+    padding-bottom: 50px;
+}
+
+.staft-body {
+    background-color: #fff;
+    font-size: 15px;
+    width: 50%;
+}
+
+.section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    /* do dày cua chu */
+    text-align: center;
+    /* căm giữa chữ The Band */
+    letter-spacing: 4px;
+    /* khoang cach giua cac chu */
+}
+
+.section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.6;
+    /* lam mo chu */
+    font-style: italic;
+    /* in nghieng */
+}
+
+.ticket-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+    float: right;
+}
+
+.ticket-list {
+    background-color: #fff;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.ticket-list li {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.ticket-list .quantity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    border-radius: 51%;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -2px;
+}
+
+#saleoff {
+    background-color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap ;
+    padding: 30px 0px;
+}
+
+.countdown-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.countdown-time span {
+    margin: 0 10px;
+}
+#saleoff .flower-sale{
+    width: 90%;
+    height: 50%;
+    border-radius : 10px;
+}
+#saleoff .sale-img{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#contact{
+    padding-top: 30px;
+    background-color: #f9f3f3;
+    padding-bottom: 100px;
+    
+}
+#footer .contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#652428 ; 
+    padding: 50px 0px;
+    overflow: hidden;
+    /* height: 300px; */
+    /* height: 300px; */
+}

@@ -1,0 +1,41 @@
+.toast {
+    position: fixed; 
+    top: 50px; 
+    right: 50px;
+}
+
+#toast--success {
+    border-left: 4px solid  #47d864;;
+}
+
+#toast--info {
+    border-left: 4px solid  #2f86eb;
+}
+
+#toast--warning {
+    border-left: 4px solid #ffc021;
+}
+
+#toast--danger {
+    border-left: 4px solid #FF0000;
+}
+
+#icon-color-success {
+    margin-right: 8px; 
+    color: #47d864;
+}
+
+#icon-color-info {
+    margin-right: 8px; 
+    color: #2f86eb;
+}
+
+#icon-color-warning {
+    margin-right: 8px; 
+    color: #ffc021;
+}
+
+#icon-color-danger {
+    margin-right: 8px; 
+    color: #FF0000;
+}
